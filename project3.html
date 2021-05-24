@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- USE DEVELOPMENT VERSION -->
+    <script src="https://unpkg.com/konva@7.2.5/konva.min.js"></script>
+    <meta charset="utf-8" />
+    <title>Konva Select and Transform Demo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #B4A0C3;
+      }
+    </style>
+                    <div>
+                       
+                      
+                      <div>
+                        <button color='#8F60EF'>Choose a Shape</button>
+                          <select id="shape" size="9">
+                          <option value="0" selected>Line</option>
+                          <option value="1">Triangle</option>
+                          <option value="2">Square</option>
+                          <option value="3">Rectangle</option>
+                          <option value="4">Circle</option>
+                          <option value="5">Ellipse</option>
+                          <option value="6">Curve</option>
+                          <option value="7">Poly-line</option>
+                          <option value="8">Polygon</option>
+                          </select>
+                          <button id="fun">Fun</button> 
+                          <button id="images">Upload Images</button> 
+                          <button id="undo">Undo</button>  
+                        <button id="redo">Redo</button>
+                      </div>
+                      <div></div>
+                      <div>
+                        <button id="new">New</button>
+                        <button id="save">Save as Image</button>
+                        <button id="copy">Copy</button>  
+                        <button id="paste">Paste</button>  
+                        <button id="saveToJson">Save as JSON</button>   
+                        <input type="file" id="files">
+                      </div>
+                  
+                      </div>
+                    
+                      
+  </head>
+
+  <body>
+    <div id="container"></div>
+    <script src="https://cdn.bootcss.com/FileSaver.js/2014-11-29/FileSaver.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/konva@7.2.5/konva.min.js"></script>
+    
+   
+    <script src = "project3.js"></script>
+  </body>
+</html>
